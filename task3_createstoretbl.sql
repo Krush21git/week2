@@ -1,4 +1,4 @@
-CREATE TABLE Store1
+CREATE TABLE Store
 (
     StoreID INT PRIMARY KEY IDENTITY(1,1),  -- primary key for each store
     Name NVARCHAR(100) NOT NULL,            -- Name of the store
