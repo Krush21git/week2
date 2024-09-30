@@ -7,7 +7,7 @@ CREATE TABLE Store
 
 Go
 
-INSERT INTO Store1 (Name, Location)
+INSERT INTO Store (Name, Location)
 VALUES 
 ('Store A', 'Australia'),
 ('Store B', 'America'),
@@ -15,6 +15,6 @@ VALUES
 
 Go
 
-Select * From Store1;
+Select * From Store;
 
 Go
