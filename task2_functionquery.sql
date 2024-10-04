@@ -1,4 +1,4 @@
-CREATE FUNCTION dbo.CalculateAge1
+CREATE FUNCTION dbo.CalculateAge
 (
     @DateOfBirth DATE
 )
