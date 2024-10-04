@@ -1,4 +1,4 @@
-CREATE TABLE Store1
+CREATE TABLE Store
 (
     StoreID INT PRIMARY KEY IDENTITY(1,1),  -- primary key for each store
     Name NVARCHAR(100) NOT NULL,            -- Name of the store
@@ -7,7 +7,7 @@ CREATE TABLE Store1
 
 Go
 
-INSERT INTO Store1 (Name, Location)
+INSERT INTO Store (Name, Location)
 VALUES 
 ('Store A', 'Australia'),
 ('Store B', 'America'),
@@ -15,6 +15,6 @@ VALUES
 
 Go
 
-Select * From Store1;
+Select * From Store;
 
 Go
